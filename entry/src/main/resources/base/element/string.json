@@ -11,6 +11,22 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "privacy_title",
+      "value": "隐私协议"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "agree",
+      "value": "同意"
+    },
+    {
+      "name": "confirm",
+      "value": "确定"
     }
   ]
 }

@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_CloudMusic_com.bye.ane.cloudmusic_2850086000417112965.cer",
+          "storePassword": "0000001BD8CAED0C25E3C9F2EF9D8B475F2F7D32A8FDAF98E690B38D42B5D0278377839E6E3DA6A86A8D7F",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B3AB426FD94A4014D3CA77703A6D40F0E8015EC22C695E6105832CAFE1D2E580988CBC30353D465",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_CloudMusic_com.bye.ane.cloudmusic_2850086000417112965.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_CloudMusic_com.bye.ane.cloudmusic_2850086000417112965.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [

@@ -3,6 +3,14 @@
     {
       "name": "app_name",
       "value": "CloudMusic"
+    },
+    {
+      "name": "welcome_page_text_desc",
+      "value": "网易云音乐.音乐的力量"
+    },
+    {
+      "name": "HarmonyHeiTi",
+      "value": "HarmonyHeiTi"
     }
   ]
 }

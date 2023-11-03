@@ -13,7 +13,7 @@
     "abilities": [
       {
         "name": "EntryAbility",
-        "srcEntry": "./ets/feature/entry/ability/EntryAbility.ts",
+        "srcEntry": "./ets/feature/entry/ui/ability/entry_ability.ts",
         "description": "$string:EntryAbility_desc",
         "icon": "$media:icon",
         "label": "$string:EntryAbility_label",

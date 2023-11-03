@@ -11,6 +11,22 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "privacy_title",
+      "value": "privacy"
+    },
+    {
+      "name": "cancel",
+      "value": "cancel"
+    },
+    {
+      "name": "agree",
+      "value": "agree"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
     }
   ]
 }

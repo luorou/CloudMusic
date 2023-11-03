@@ -1,5 +1,5 @@
 {
   "src": [
-    "feature/entry/pages/WelcomePage"
+    "feature/entry/ui/pages/welcome_page"
   ]
 }
