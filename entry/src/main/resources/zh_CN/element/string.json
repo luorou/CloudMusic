@@ -27,6 +27,26 @@
     {
       "name": "confirm",
       "value": "确定"
+    },
+    {
+      "name": "bottom_tab_home",
+      "value": "首页"
+    },
+    {
+      "name": "bottom_tab_roaming",
+      "value": "漫游"
+    },
+    {
+      "name": "bottom_tab_topic",
+      "value": "动态"
+    },
+    {
+      "name": "bottom_tab_mine",
+      "value": "我的"
+    },
+    {
+      "name": "setting",
+      "value": "设置"
     }
   ]
 }

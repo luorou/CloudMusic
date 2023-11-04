@@ -4,6 +4,7 @@ import { StoreKey } from '../../../../core/localstore/store_key';
 import router from '@ohos.router';
 
 import UserPrivacyDialog from "../dialog/user_privacy_dialog";
+import { RouterIndexPaths, RouterLoginPaths, RouterPaths } from '../../../../core/routers/routers_path';
 
 
 @Entry
@@ -73,10 +74,53 @@ struct WelcomePage {
    *
    */
   startIndexPage(delay: number) {
+    //
+    let want = {
+      deviceId: '', // deviceId为空表示本设备
+      bundleName: RouterPaths.bundle_name,
+      abilityName: RouterIndexPaths.index_ability_name,
+      moduleName: RouterPaths.entry_module_name, // moduleName非必选
+      parameters: { // 自定义信息
+        info: '来自EntryAbility Index页面',
+      },
+    }
+    //
     setTimeout(() => {
-      router.replaceUrl({ url: 'pages/AdvertisingPage' });
+      this.context.startAbility(want).then(() => {
+        // ...
+      }).catch((err) => {
+        // ...
+      })
     }, delay);
   }
+
+  /**
+   *
+   */
+  /**
+   *
+   */
+  startLoginPage(delay: number) {
+    //
+    let want = {
+      deviceId: '', // deviceId为空表示本设备
+      bundleName: RouterPaths.bundle_name,
+      abilityName: RouterLoginPaths.login_ability_name,
+      moduleName: RouterPaths.entry_module_name, // moduleName非必选
+      parameters: { // 自定义信息
+        info: '来自EntryAbility Index页面',
+      },
+    }
+    //
+    setTimeout(() => {
+      this.context.startAbility(want).then(() => {
+        // ...
+      }).catch((err) => {
+        // ...
+      })
+    }, delay);
+  }
+
 
   /**
    *

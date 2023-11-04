@@ -27,6 +27,26 @@
     {
       "name": "confirm",
       "value": "confirm"
+    },
+    {
+      "name": "bottom_tab_home",
+      "value": "home"
+    },
+    {
+      "name": "bottom_tab_roaming",
+      "value": "roaming"
+    },
+    {
+      "name": "bottom_tab_topic",
+      "value": "topic"
+    },
+    {
+      "name": "bottom_tab_mine",
+      "value": "mine"
+    },
+    {
+      "name": "setting",
+      "value": "setting"
     }
   ]
 }

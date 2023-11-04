@@ -1,0 +1,7 @@
+{
+  "src": [
+    "feature/entry/ui/pages/welcome_page",
+    "feature/login/ui/pages/login_page",
+    "feature/index/ui/pages/index_page"
+  ]
+}
