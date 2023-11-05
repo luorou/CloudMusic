@@ -34,42 +34,47 @@
       {
         "name": "LoginAbility",
         "srcEntry": "./ets/feature/login/ui/ability/login_ability.ets",
-        "description": "$string:EntryAbility_desc",
-        "icon": "$media:icon",
-        "label": "$string:EntryAbility_label",
+//        "description": "$string:EntryAbility_desc",
+//        "icon": "$media:icon",
+//        "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
-        "exported": true,
-        "skills": [
-          {
-            "entities": [
-              "entity.system.home"
-            ],
-            "actions": [
-              "action.system.home"
-            ]
-          }
-        ]
+//        "exported": true,
+//        "skills": [
+//          {
+//            "entities": [
+//              "entity.system.home"
+//            ],
+//            "actions": [
+//              "action.system.home"
+//            ]
+//          }
+//        ]
       },
       {
         "name": "IndexAbility",
         "srcEntry": "./ets/feature/index/ability/index_ability.ets",
-        "description": "$string:EntryAbility_desc",
-        "icon": "$media:icon",
-        "label": "$string:EntryAbility_label",
+//        "description": "$string:EntryAbility_desc",
+//        "icon": "$media:icon",
+//        "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
-        "exported": true,
-        "skills": [
-          {
-            "entities": [
-              "entity.system.home"
-            ],
-            "actions": [
-              "action.system.home"
-            ]
-          }
-        ]
+//        "exported": true,
+//        "skills": [
+//          {
+//            "entities": [
+//              "entity.system.home"
+//            ],
+//            "actions": [
+//              "action.system.home"
+//            ]
+//          }
+//        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
       }
     ]
   }

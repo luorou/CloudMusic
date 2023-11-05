@@ -8,6 +8,13 @@
       "name": "col_007dff",
       "value": "#007dff"
     },
-
+    {
+      "name": "col_ff0000",
+      "value": "#ff0000"
+    },
+    {
+      "name": "col_00000000",
+      "value": "#00000000"
+    }
   ]
 }

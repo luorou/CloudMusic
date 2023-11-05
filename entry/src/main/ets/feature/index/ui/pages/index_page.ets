@@ -20,14 +20,14 @@ struct IndexPage {
   @Builder TabBuilder(tab: NavItem) {
     Column() {
       Image(tab.icon_normal)
-        .fillColor(this.currentPage === tab.id ? tab.icon_selected : tab.icon_color_normal)
+        .fillColor(this.currentPage === tab.id ? tab.icon_color_selected : tab.icon_color_normal)
         .width($r('app.float.vp_24'))
         .height($r('app.float.vp_24'))
         .objectFit(ImageFit.Contain);
       Text(tab.title)
         .fontSize($r('app.float.vp_10'))
         .fontWeight(FontWeight.WEIGHT_500)
-        .fontColor(this.currentPage === tab.id ? tab.title_color_selected : tab.title_color_selected)
+        .fontColor(this.currentPage === tab.id ? tab.title_color_selected : tab.title_color_normal)
         .margin({ top: $r('app.float.vp_4') })
     }
     .justifyContent(FlexAlign.Center)

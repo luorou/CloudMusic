@@ -87,6 +87,7 @@ struct WelcomePage {
     //
     setTimeout(() => {
       this.context.startAbility(want).then(() => {
+        this.context.terminateSelf();
         // ...
       }).catch((err) => {
         // ...
@@ -114,6 +115,7 @@ struct WelcomePage {
     //
     setTimeout(() => {
       this.context.startAbility(want).then(() => {
+        this.context.terminateSelf();
         // ...
       }).catch((err) => {
         // ...
