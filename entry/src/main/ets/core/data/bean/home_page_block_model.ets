@@ -1,5 +1,4 @@
 export enum BlockCode{
-
   HOMEPAGE_BANNER="HOMEPAGE_BANNER",
   HOMEPAGE_BLOCK_OLD_DRAGON_BALL="HOMEPAGE_BLOCK_OLD_DRAGON_BALL",
   HOMEPAGE_BLOCK_PLAYLIST_RCMD="HOMEPAGE_BLOCK_PLAYLIST_RCMD",
@@ -522,6 +521,7 @@ export interface CreativeUIElement {
   rcmdShowType: RcmdShowType;
   mainTitle?:   FluffyMainTitle;
   button?:      Button;
+  image?:       Image;
 }
 
 export interface Button {
